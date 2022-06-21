@@ -49,6 +49,7 @@ aside .datos {
     text-shadow: 2px 2px 10px #000;
     padding: 40px; 
     text-decoration-line: underline;
+    
 
 }
 div .fotoPresentacion {
@@ -90,6 +91,7 @@ div .fotoPresentacion {
     text-shadow: 2px 2px 10px #000;
     padding: 40px; 
     text-decoration-line: underline; 
+    
 
 }
 
@@ -100,7 +102,7 @@ div .infoPersonal {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    
 }
 
 
