@@ -115,6 +115,7 @@ div .infoPersonal p {
     font-size: 100%;
     font-style:italic;
     flex-direction: row;
+    padding: 20px 30px;
 }
 
 
@@ -159,8 +160,9 @@ article {
     justify-content: space-between;
     box-shadow: 7px 13px 37px #000;
     background-color: coral;
-    padding: 20px 30px;
+    padding: 10px 20px;
     border-radius: 100px 100px;
+    flex-direction: column;
     
 }
 
@@ -168,7 +170,7 @@ article .experiencia {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 10px 20px;
    
 }
 .experiencia h1 {
@@ -179,15 +181,17 @@ article .experiencia {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
 }
 .experiencia ul {
     justify-content: space-between;
     align-items: center;
     display: flex;
-    padding: 20px 50px;
+    padding: 10px 20px;
+    flex-direction: column;
 }
 
-div .experiencia ul li {
+.experiencia ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -210,6 +214,7 @@ div .redes {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 30px;
 }
 
 .redes img {
