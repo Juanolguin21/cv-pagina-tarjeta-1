@@ -46,15 +46,18 @@ aside {
 aside b {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
+    text-shadow: 1px 1px 3px #000;
 }
 section b {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
+    text-shadow: 1px 1px 3px #000;
 }
 
 article b {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
+    text-shadow: 1px 1px 3px #000;
 
 }
 aside .datos {
