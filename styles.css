@@ -14,6 +14,7 @@ body {
     gap: 2rem;
     padding: 3rem 2rem;
     background-color: black;
+    
 }
 
 .logo img {
@@ -31,9 +32,10 @@ section {
     justify-content: center;
     align-items: center;
     padding: 3rem 10rem;
-    background-color: coral;
     border-radius: 2rem;
     width: 100%;
+    background-image: url(section.png);
+    
 }
 
 .fotoPresentacion {
@@ -43,6 +45,7 @@ section {
     padding: 5rem;
     border: 1rem solid;
     border-radius: 2rem;
+    background-color: coral;
 }
 .infoPersonal{
     display: flex;
@@ -76,13 +79,14 @@ aside {
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: bisque;
     padding: 3rem 10rem;
     border-radius: 2rem;
     width: 100%;
+    background-image: url(aside.png);
     
 }
 .datos {
+    background-color: bisque;
     padding: 3rem 10rem;
     border: 1rem solid;
     border-radius: 2rem;
@@ -96,6 +100,7 @@ aside {
     padding: 3rem 10rem;
     border: 1rem solid;
     border-radius: 2rem;
+    background-color: coral;
 }
 
 ul li {
@@ -108,13 +113,14 @@ article {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:bisque;
     border-radius: 2rem;
     padding: 3rem 10rem;
     width: 100%;
+    background-image: url(aside.png);
    
 }
 .experiencia {
+    background-color:bisque;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,6 +146,7 @@ article {
 .redes img {
     width: 3rem;
     border-radius: 1rem;
+    
 }
 footer {
     display: flex;
