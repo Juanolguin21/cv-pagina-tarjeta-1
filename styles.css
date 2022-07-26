@@ -11,17 +11,15 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    gap: 2rem;
+    padding: 3rem 2rem;
     background-color: black;
 }
 
 .logo img {
     width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 1rem;
-    border: 0.5rem solid;
+    border: 0.3rem solid;
 }
 
 .redes img {
@@ -42,8 +40,14 @@ section {
     display:flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem 12rem;
+    padding: 5rem;
     border: 1rem solid;
+    border-radius: 2rem;
+}
+.infoPersonal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .infoPersonal p{
     align-items: center;
@@ -73,13 +77,15 @@ aside {
     justify-content: center;
     align-items: center;
     background-color: bisque;
-    width: 100%;
+    padding: 3rem 10rem;
     border-radius: 2rem;
-    padding: 3rem;
+    width: 100%;
+    
 }
 .datos {
     padding: 3rem 10rem;
     border: 1rem solid;
+    border-radius: 2rem;
 }
 
 .perfil2 {
@@ -89,11 +95,13 @@ aside {
     flex-direction: column;
     padding: 3rem 10rem;
     border: 1rem solid;
+    border-radius: 2rem;
 }
 
 ul li {
     padding: 0.5rem;
     font-size: 1.4rem;
+    text-align: center;
 }
 article {
     display:flex;
@@ -101,9 +109,9 @@ article {
     align-items: center;
     flex-direction: column;
     background-color:bisque;
-    width: 100%;
     border-radius: 2rem;
-    padding: 3rem 15rem;
+    padding: 3rem 10rem;
+    width: 100%;
    
 }
 .experiencia {
@@ -113,6 +121,7 @@ article {
     flex-direction: column;
     padding: 3rem 10rem;
     border: 1rem solid;
+    border-radius: 2rem;
 }
 .redes {
     display: flex;
@@ -131,14 +140,12 @@ article {
 .redes img {
     width: 3rem;
     border-radius: 1rem;
-    
-    
 }
 footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3rem;
+    padding: 2rem;
     border-radius: 2rem;
     background-color: #ff7f50;
     width: 100%;
@@ -153,4 +160,45 @@ footer img {
     align-items: center;
     justify-content: center;
     width: 6rem;
+}
+
+@media (max-width:1130px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .section {
+        padding:0.1rem 0.3rem;
+    }
+    .datos {
+        padding: 1rem;
+        border: 0.3rem solid;
+    }
+    .perfil2 {
+        padding: 1rem;
+        border: 0.3rem solid;  
+    }
+    .experiencia {
+        padding: 1rem;
+        border: 0.3rem solid; 
+    }
+
+    .fotoPresentacion {
+        padding:1rem;
+        border: 0.3rem solid;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .infoPersonal p {
+        font-size: 1rem;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+    .logo img {
+        width: 50%;
+        border: 0.1rem solid;
+    }
 }
